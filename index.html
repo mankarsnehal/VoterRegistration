@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>NATIONAL VOTER'S SERVICES DEMO PORTAL</title>
+	<link rel="stylesheet" type="text/css" href="./css/VoterStyle.css">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;700&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;900&family=Poppins:wght@200;300;500;700&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+	<header class="header">
+		<section class="navbar">
+			<img src="./img/national-flag.png" class="nav-img nav-flag">
+			<h1 class="hindi-title">राष्ट्रीय मतदान सेवा पोर्टल</h1>
+			<h1 class="english-title">NATIONAL VOTER'S SERVICES PORTAL</h1>
+			<img src="./img/logo.jpg" class="nav-img nav-logo">
+		</section>
+	</header>
+
+	<div class="navigate">
+		<ul class="nav-item1">
+			<li class="nav-items"><input type="button" value="A+" class="it1"></li>
+			<li class="nav-items"><input type="button" value="A-" class="it1"></li>
+		</ul>
+		<ul class="nav-item2">
+			<li class="nav-items">Select Language:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+			<li class="nav-items"><select><option>Select</option><option>Hindi</option><option>English</option></select></li>
+		</ul>
+	</div>
+
+	<div class="dis"><p class="disclaimer"> Note: Fields marked with asterisks (<span class="text-red">*</span>) are mandatory</p></div>
+
+	<section class="main-content">
+		<div class="container">
+			<div class="rule">
+				<h2>Type 6 <br>[See Rule 13(1) and 26]</h2>
+			</div>
+			<section class="sec sec-1">
+				<h2 class="prim-head">Application for Inclusion of name in the electoral roll for the first time due to the transfer of voter or one constituency to any other constituency.</h2>
+				<p>In Service</p><br>
+				<p>Electoral Legislature Office,</p><br>
+					<table class="middle">
+						<tr>
+							<td><label for="state" class="required">State </label></td> 
+							<td><select id="state"><option>Select State</option><option>Andhra Pradesh</option><option>Arunachal Pradesh</option><option>Assam</option><option>Bihar</option><option>Chhattisgarh</option><option>Goa</option><option>Gujarat</option><option>Haryana</option><option>Himachal Pradesh</option><option>Jharkhand</option><option>Kerala</option><option>Karnataka</option><option>Madhya Pradesh</option><option>Maharashtra</option><option>Manipur</option><option>Meghalaya</option><option>Mizoram</option><option>Nagaland</option><option>Odisha</option><option>Punjab</option><option>Rajasthan</option><option>Sikkim</option><option>Tamil Nadu</option><option>Telangana</option><option>Tripura</option><option>Uttar Pradesh</option><option>Uttarakhand</option><option>West Bengal</option><option>Andaman And Nicobar</option><option>Chandigarh</option><option>Dadra and Nagar Haveli and Daman And Diu</option><option>Delhi</option><option>Jammu and Kashmir</option><option>Ladakh</option><option>Lakshaqweep</option><option>Pudducherry</option></select></td>
+							<td><label for="dist" class="required">District </label></td>
+							<td><input type="text" name="" id="dist" class="text-box" required></td>
+						</tr>
+						<tr>
+							<td colspan="2" class="required"><label>Legislature Assembly/ Parliament Constituency</label></td>
+							<td colspan="2"><select><option>Select</option></select></td>
+						</tr>
+					</table>
+				<br><p>I request that my name be included in electoral rolls for all the aforesaid areas</p><br>
+				<input type="radio" name="" class="middle">First time voter <br>		
+				<input type="radio" name="" class="middle">Due to transfer from other meeting areas <br>
+				<br><br><br><p>Below are the specifications in support of my claim to be included in the electoral rolls.</p>
+			</section>
+
+			<section class="sec sec-2">
+				<h2 class="prim-head">Mandatory Specifications</h2>
+				<table class="speci middle">
+					<tr>
+						<td><label for="name" class="required">Name</label> </td>
+						<td>: <input type="text" name="" placeholder="In English" id="name" class="text-box" required></td>
+						<td><input type="text" name="" placeholder="In Regional" class="text-box" required></td>
+					</tr>
+					<tr>
+						<td><label for="surname" class="required">Surname</label> </td>
+						<td>: <input type="text" name="" placeholder="In English" id="surname" class="text-box" required></td>
+						<td><input type="text" name="" placeholder="In Regional" class="text-box" required></td>
+						<td><kbd></kbd></td>
+					</tr>
+					<tr>
+						<td><label for="birthdate" class="required"></label>Date of Birth </td>
+						<td>: <input type="Date" name="" id="birthdate" class="text-box"></td>
+						<td></td>
+					</tr>
+					<tr>
+						<td><label for="relative" class="required">Name of Applicant's Relative</label> </td>
+						<td>: <input type="text" name="" placeholder="In English" id="relative" class="text-box" required></td>
+						<td><input type="text" name="" placeholder="In Regional" class="text-box" required></td>
+					</tr>
+					
+				</table>
+			</section>
+
+			<section class="sec sec-3">
+				<h2 class="prim-head">Current Address, whose applicant is nominally resident</h2>
+				<table class="middle">
+					<tr>
+						<td><label for="houseno" class="required">House no.</label> </td>
+						<td>: <input type="text" name="" placeholder="In English" id="houseno" class="text-box" required></td>
+						<td><input type="text" name="" placeholder="In Regional" class="text-box" required></td>
+					</tr>
+					<tr>
+						<td><label for="location" class="required">Street/ Area/ Location</label> </td>
+						<td>: <input type="text" name="" placeholder="In English" id="location" class="text-box" required></td>
+						<td><input type="text" name="" placeholder="In Regional" class="text-box" required></td>
+					</tr>
+					<tr>
+						<td><label for="city" class="required">City/ Village</label> </td>
+						<td>: <input type="text" name="" placeholder="In English" id="city" class="text-box" required></td>
+						<td><input type="text" name="" placeholder="In Regional" class="text-box" required></td>
+					</tr>
+					<tr>
+						<td><label for="PO" class="required">Post Office</label> </td>
+						<td>: <input type="text" name="" placeholder="In English" id="PO" class="text-box" required></td>
+						<td><input type="text" name="" placeholder="In Regional" class="text-box" required></td>
+					</tr>
+					<tr>
+						<td><label for="pin" class="required">Pin Code</label> </td>
+						<td>: <input type="text" name="" id="pin" class="text-box" required></td>
+						<td></td>
+					</tr>
+				</table>
+			</section>
+
+			<section class="sec sec-4">
+				<h2 class="prim-head">Optional Specifications</h2>
+				<table class="oth-speci middle">
+					<tr>
+						<td><label for="email">Email Id (Optional)</label> </td>
+						<td>: <input type="email" name="" id="email" class="text-box"></td>
+					</tr>
+					<tr>
+						<td><label for="mobile">Mobile No. (Optional)</label> </td>
+						<td>: <input type="text" name="" id="mobile" class="text-box"></td>
+					</tr>
+					
+				</table>
+			</section>
+
+			<section class="sec sec-5">
+				<h2 class="prim-head">Upload Supporting Documents (Supported Formats .jpg .jpeg .png .bmp) (Size 2mb)</h2>
+				<table class="middle">
+					<tr>
+						<td><label for="photo" class="required">Applicant Photo </label></td>
+						<td>: <input type="file" name="" id="photo" class="text-box" required></td>
+					</tr>
+					<tr>
+						<td><label for="age-proof" class="required">Age Proof </label></td>
+						<td>: <input type="file" name="" id="age-proof" class="text-box" required></td>
+					</tr>
+					<tr>
+						<td><label for="add-proof" class="required">Address Proof </label></td>
+						<td>: <input type="file" name="" id="add-proof" class="text-box" required></td>
+					</tr>
+				</table>
+			</section>
+
+			<section class="sec sec-6">
+				<h2 class="prim-head">Declaration</h2>
+				<p>I Hereby declare that According to best of my knowledge and belief, </p>
+				<p>I am Citizen of India from my birth, of place,</p>
+				<table class="middle">
+					<tr>
+						<td><label for="state">State </label></td> 
+						<td>: <select id="state"><option>Select State</option><option>Andhra Pradesh</option><option>Arunachal Pradesh</option><option>Assam</option><option>Bihar</option><option>Chhattisgarh</option><option>Goa</option><option>Gujarat</option><option>Haryana</option><option>Himachal Pradesh</option><option>Jharkhand</option><option>Kerala</option><option>Karnataka</option><option>Madhya Pradesh</option><option>Maharashtra</option><option>Manipur</option><option>Meghalaya</option><option>Mizoram</option><option>Nagaland</option><option>Odisha</option><option>Punjab</option><option>Rajasthan</option><option>Sikkim</option><option>Tamil Nadu</option><option>Telangana</option><option>Tripura</option><option>Uttar Pradesh</option><option>Uttarakhand</option><option>West Bengal</option><option>Andaman And Nicobar</option><option>Chandigarh</option><option>Dadra and Nagar Haveli and Daman And Diu</option><option>Delhi</option><option>Jammu and Kashmir</option><option>Ladakh</option><option>Lakshaqweep</option><option>Pudducherry</option></select></td>
+					</tr>
+					<tr>
+						<td><label for="dist">District </label></td>
+						<td>: <input type="text" name="" id="dist" class="text-box"></td>
+					</tr>
+					<tr>
+						<td><label for="village">City/Village </label></td>
+						<td>: <input type="text" name="" id="village" class="text-box"></td>
+					</tr>
+					<tr>
+						<td><label for="date">Date </label></td>
+						<td>: <input type="date" name="" id="date" class="text-box"></td>
+					</tr>
+				</table>
+				<br><br><br>
+				<p>I am nominally resident of the address given on the date given above.</p><br>
+				<p>I have not applied for inclusion of my name in any other constituency,</p><br>
+				<input type="radio" name="declare" value="" class="radio-button middle">My name has not been already included for electoral roll in this or any other assembly / parliament constituency. <br>
+				<input type="radio" name="declare" value="" class="radio-button middle">My name would have been included in the electoral rolls of the State's Constituency, in which I was already residing, and if that so, then I request that it be removed from that Constituency. <br>
+				<br><br><br>
+				<hr><br>
+				<p>I hereby declare that, if I am found guilty for any of the statements declared above, or any data submitted being false, then according to People's Representation Act, 1950(43 of 1950) it is punishable.</p>
+				<br><br><br>
+				<img src="./img/captcha.png" class="captcha"><br>
+				<input type="text" name="" class="captcha"><br><br><br>
+				<div class="btn">
+					<input type="reset" value="Reset" name="reset" class="button button-1">
+					<input type="submit" value="Submit" name="submit" class="button button-2">
+				</div>
+				<br><br><br>
+			</section>	
+		</div>
+	</section>
+
+	<footer class="footer">
+		National Voter's Services &copy; 2020, All Rights Reserved. 
+
+	</footer>
+
+</body>
+	
+</html>
